@@ -1,0 +1,270 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Ropa Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: white;
+}
+
+/* CSS CABEÇALHO */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 16px 45px 16px 60px;
+  background-color: white;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container-text {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container-text > h1 {
+  color: #777777;
+}
+
+.text-flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 60px;
+}
+
+.text-flex > p {
+  font-size: 11px;
+  margin-left: 5px;
+  color: #777777;
+}
+
+.icon-menu {
+  cursor: pointer;
+}
+
+
+/* CSS CORPO */
+
+main {
+  width: 100%;
+  padding: 0px 80px;
+}
+
+/* css sessão 01 */
+
+.carrossel {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 515px;
+  background-image: url("/img/carrossel.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.group-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/img/circle.png);
+  background-repeat: no-repeat;
+  width: 39px;
+  height: 39px;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.group-buttons > img {
+  justify-content: center;
+  align-items: center;
+}
+
+/* css sessão 02 */
+
+.container-colunas {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.coluna {
+  width: 45%;
+  background-color: #EEEEEE;
+}
+
+.coluna > img {
+  width: 100%;
+  height: 290px;
+}
+
+.coluna-valor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.coluna-valor > h1 {
+  color: #888888;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.button1 {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 26px;
+  font-weight: 400;
+  background-color: #51D275;
+  color: white;
+  cursor: pointer;
+}
+
+.button2 {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  font-size: 26px;
+  font-weight: 400;
+  background-color: #DC9730;
+  color: white;
+  cursor: pointer;
+}
+
+.coluna p {
+  margin: 0px 20px 20px 20px;
+  font-size: 20px;
+  color: #727272;
+  text-justify: auto;
+}
+
+/* css sessão 03 */
+
+.container-style {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
+
+.container-style > h1 {
+  font-size: 32px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.industrial {
+  width: 100%;
+  display: flex;
+  background-image: url("/img/img01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.industrial > h1 {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.modern {
+  width: 100%;
+  display: flex;
+  background-image: url("/img/img02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.modern > h1 {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.classic {
+  width: 100%;
+  display: flex;
+  background-image: url("/img/img03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 160px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.6;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.classic > h1 {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+footer {
+  display: flex;
+  background: #333333;
+  margin-top: 80px;
+  padding: 80px 140px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.map {
+  width: 450px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 230px;
+}
+
+.info > p {
+  font-size: 22px;
+  color: white;
+  line-height: 50px;
+  font-weight: 400;
+}
+
+.info picture img {
+  width: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
